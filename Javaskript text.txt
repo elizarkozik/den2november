@@ -1,0 +1,163 @@
+JavaScript Intro:
+
+ecmaSpript 5, 6, 7, 8: es2020
+ nya apier, färdiga metoder, nya syntax. 
+
+Java är inte samma sak: Object orienterad spårk. Kommer vi gå igenom också Java? Nej,  PHP.
+
+JavaScript: 
+- dymanic spårk.
+Webb
+(programmering paradigm: OOP, functional)
+
+Client/frontend: Webbläsare, mobila appar, desktop
+spara data i Client men inte permanent
+
+Backend/server:
+(Man separerar Client från databasen):hur man skriver bisens logic och valdering av data. 
+Java, C#, PHP, Python ramverk, ruby, (helt andra miljö)
+Nodjes:- Den ska köras i sever miljö/backend miljö.
+
+
+databasen: sparar alla data permanent. 
+
+Client->browser
+-->destop appar till Iot, ML (mission learning), mobila appar. 
+
+API: 
+docuent, window API
+browser/Webbläsare har sina egna apier för att programmera mot.
+backend har också sina egna apier.
+
+application programming inferface
+
+-----------
+Låg nivå- maskin- maskin nära 0,1
+Hög nivå- 
+-----------------------
+Variable/Variabel:
+A inte likamed a: Case sensative.
+
+Vad är programering?
+Man säger till maskiner vad vi vill göra.
+Deta/info och vad vi kan göra med dem.
+
+Variable. För att lagra data i koden.
+// skapar en Variabel som ska ha namn info/data:
+var är från js. (JavaScript)
+namn
+var namn= "Rakib" eller något vätidigt namn.
+
+Man skriver var nanm: T.ex. "Rakib" eller "Elizar" 
+
+//
+var namn, deklarerar/declaration
+// tilldelar något värde
+säger man initierar.
+namn = "Rakib" //intialisering. Detta kan hjälpa att debugga och se vilken error som har hänt.
+
+
+
+------------------
+
+Datastypes/datatyper:
+strong typed,
+
+datatyper, execution context, hur js fungerar i backgrunden
+olika data tpyer:
+text/string "text måsta ha citation, citattecken"
+till. ex. name, någon text, user input.
+
+int/heltal: heltal.
+
+decimalttal/float/decimal: 2.2,
+
+boolean: ture/false.
+
+
+Array/list:
+Lista/array [ 1, "text", ture, 2.3]
+Object: key value pair/par :
+
+{ name: "Rakib", profession: "lärare", experience:"4"}
+
+
+{key="value", key2:"value2"}
+
+declaration+ initialiseing:
+var personUppgift =  { namn "Rakib", profession: "lärare", experience:}
+
+läsa /extract:
+//Objectnamn.key
+personUppgift.name
+
+Om man vill läs mer på: https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/ 
+
+testa i consle:
+
+10"+10
+"1010"
+"10"*10
+100
+Number ("10")+10
+20
+Number("10")+ 10
+20
+-------------
+
+Object
+
+
+
+
+conditional/vilkorsat:
+
+// expression ??: jämförelse true/false value, 
+//age>18 , password== matatinPassword
+---
+if (ture/false) {  alla kod som finns initu i ska köras om vilkoret är sant}
+else is {  om överstående if inte är sant }
+else {  om ingen överstående vilkoren är sant körs else }
+
+== // när vi jämför två value/värde, men INTE deras datatyper
+"50"== 50
+resultat: ture
+
+=== // när vi jämför två value/värde och deras datatyper 
+"50" === 50
+resultat: false
+
+inte
+! not : !ture
+
+!= // not lika med
+
+!== // not lika med
+
+------------
+< // mindre än
+> // större än
+<= // mindre och lika med
+>= // större än och lika med
+
+--------------------
+Senare sade Rakib:
+for-loop/iteration/upprepning.
+
+----------
+
+else is (om överstående if inte är sant)
+else ( om inga överstående vilkor är sant körs else)
+Onsdag:
+upprepning
+expression1 && expression2 and
+expression2  expression2 orienterad
+DOM:Array
+
+//Uppgifter:
+ * Skapa ett program där användare matar in 3 siffor och du visar multiflikation  av tre.
+ (10*2*4) KLART!
+ och 
+ visa också
+   subtraction  sista två siffor från första siffran. till ex. första siffran är 10 ,    2,4  (substrakt sista två siffror(2, 4) från första 10 )
+   (10- (2+4))
